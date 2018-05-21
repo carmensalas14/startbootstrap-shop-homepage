@@ -8,8 +8,39 @@ body {
   padding-top: 54px;
 }
 
+.navbar{
+  background-color: #DC092C;
+  font-size:20px;
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
   }
+}
+
+.form-control signupinput{
+  height:30px;
+  width:30px;
+}
+
+.about-text{
+  text-align:center;
+}
+
+.d-block img-fluid{
+  height:200px;
+}
+
+
+.card-img-top{
+  height: 300px;
+  width:250px;
+}
+
+
+
+.img{
+  width: 400px;
+  height:400px;
 }

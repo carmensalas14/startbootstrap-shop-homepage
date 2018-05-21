@@ -30,6 +30,8 @@ html {
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
+    max-height:400px;
+    min-height:400px;
   }
 }
 

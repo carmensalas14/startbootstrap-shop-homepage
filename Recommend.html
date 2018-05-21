@@ -2,33 +2,31 @@
 <html lang="en">
 
   <head>
-     
+
+
+  <!--javascript-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <script src="js/script.js" async></script>
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <title>Shop Homepage - Start Bootstrap Template</title>
-    
-      <!-- Latest compiled and minified CSS -->
-      <link type="text/css" rel="stylesheet" href="css/style.css" />
- 
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/shop-homepage.css" rel="stylesheet">
-    
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="./js/script.js"></script>
 
   </head>
 
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">BooksRUs</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,26 +35,23 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home
+              <a class="nav-link" href="#">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="done.html" id="about">About</a>
+              <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Sign.html" id="sign">Sign Up</a>
+              <a class="nav-link" href="#">Sign Up</a>
             </li>
-            
-             <div class="navbar-form" role="search">
-                        <div class="input-group">
-                          <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
-                          <div class="input-group-btn">
-                              <button class="btn btn-default" type="submit" id="search"><span class="glyphicon glyphicon-search" ></span>Search</button>
-                          </div>
-                        </div>
-                    </div>
-              
+          
+              <form class="form-search" method="get" id="s" action="/">
+    <div class="input-append">
+        <input type="text" class="input-medium search-query" name="s" placeholder="Search" value="">
+        <button type="submit" class="add-on"><i class="glyphicon glyphicon-search">Search</i></button>
+    </div>
+</form>
             </li>
           </ul>
         </div>
@@ -64,10 +59,23 @@
     </nav>
 
     <!-- Page Content -->
-    
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-3">
+
+          <h1 class="my-4">Your Lists</h1>
+          <div class="list-group">
+            <a href="#" class="list-group-item">Read Later</a>
+            <a href="#" class="list-group-item">Recommendations</a>
+            <a href="#" class="list-group-item">Read</a>
+          </div>
+
+        </div>
         <!-- /.col-lg-3 -->
 
-       <center> <div class="col-lg-9">
+        <div class="col-lg-9">
 
           <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -77,13 +85,13 @@
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
-                <img class="d-block img-fluid" src="https://png.pngtree.com/thumb_back/fw800/back_pic/04/31/17/3158423451d1f33.jpg" alt="First slide">
+                <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="First slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid" src="https://img.washingtonpost.com/wp-apps/imrs.php?src=https://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2015/02/25/Others/Images/2015-02-25/iStock_000045605594_Full1424881801.jpg&w=480" alt="Second slide">
+                <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Second slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid" src="https://cdn.arstechnica.net/wp-content/uploads/2014/04/banner_reference-640x227.jpg" alt="Third slide">
+                <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Third slide">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -100,7 +108,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://books.google.com/books/content?id=kotPYEqx7kMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"></a>
+                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
                     <a href="#"></a>
@@ -116,7 +124,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://books.google.com/books/content?id=XV8XAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api" alt=""></a>
+                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
                     <a href="#"></a>
@@ -132,7 +140,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://books.google.com/books/content?id=ilc0DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api" alt=""></a>
+                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
                     <a href="#"></a>
@@ -148,7 +156,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://books.google.com/books/content?id=3EA5DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api" alt=""></a>
+                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
                     <a href="#"></a>
@@ -164,7 +172,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://books.google.com/books/content?id=gvInDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api" alt=""></a>
+                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
                     <a href="#"></a>
@@ -180,7 +188,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://books.google.com/books/content?id=gxQmDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api" alt=""></a>
+                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
                     <a href="#"></a>
@@ -204,7 +212,6 @@
       <!-- /.row -->
 
     </div>
-    </center>
     <!-- /.container -->
 
     <!-- Footer -->
@@ -215,14 +222,16 @@
       <!-- /.container -->
     </footer>
 
-
-
 <!-- jQuery -->
-    
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery/jquery.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <script src="js/game.js"></script>
     <script src="js/script.js"></script>
 
 
